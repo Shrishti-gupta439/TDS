@@ -1,0 +1,14 @@
+name: My Test Action
+
+on:
+  push:  # Trigger on every push to any branch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f2004336@ds.study.iitm.ac.in  # Step name with your email
+        run: echo "Hello, world! This action includes a step with a name containing the specified email address for demonstration purposes."
+
+      - name: Another Step
+        run: echo "This is another step in the workflow."
