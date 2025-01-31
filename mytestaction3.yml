@@ -1,0 +1,16 @@
+name: Run Test Workflow
+
+on:
+  push:
+    branches:
+      - main  # Runs the action when pushing to the main branch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 23f2004336@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
